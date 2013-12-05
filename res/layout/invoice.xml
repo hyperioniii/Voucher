@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#339900"
+        android:orientation="horizontal"
+        android:weightSum="6" 
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:text="INVOICE"
+            android:textColor="#FFF"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" 
+            android:src="@drawable/refresh"
+            android:background="@drawable/layoutlist"
+            android:layout_gravity="center"
+            android:id="@+id/refress"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" 
+            android:src="@drawable/plus"
+            android:layout_gravity="center"
+            android:background="@drawable/layoutlist"
+            android:id="@+id/add"/>
+    </LinearLayout>
+
+    
+
+    <ListView
+     android:id="@+id/listvoucher"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1">
+    </ListView>
+
+
+</LinearLayout>

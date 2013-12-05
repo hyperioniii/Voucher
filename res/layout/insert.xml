@@ -146,7 +146,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" >
             </TableRow>
-
             <TableLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -185,7 +184,8 @@
                         android:background="#F5F5DC" />
                 </TableRow>
 
-                <TableRow
+             
+                 <TableRow
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical" >
@@ -195,14 +195,39 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
-                        android:text="hang thuy san"
+                        android:text="price_buy"
                         android:textColor="#006600" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/pricebuy"
+                        android:gravity="right"
+                        android:text=" 20.000.000"
+                        android:textColor="#006600" />
+                </TableRow>
+                
+                 <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
 
                     <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
+                        android:text="price_sell"
+                        android:textColor="#006600" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/pricesell"
                         android:gravity="right"
                         android:text=" 20.000.000"
                         android:textColor="#006600" />
@@ -217,10 +242,11 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
-                        android:text="hang thuy san"
+                        android:text="quantity"
                         android:textColor="#006600" />
 
-                    <TextView
+                    <EditText
+                        android:id="@+id/quantity"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -229,138 +255,8 @@
                         android:text=" 20.000.000"
                         android:textColor="#006600" />
                 </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
-                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:text="hang thuy san"
-                        android:textColor="#006600" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_weight="1"
-                        android:gravity="right"
-                        android:text=" 20.000.000"
-                        android:textColor="#006600" />
-                </TableRow>
+                
+                 
                  <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

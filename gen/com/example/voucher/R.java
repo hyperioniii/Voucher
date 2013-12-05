@@ -37,23 +37,23 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f08001f;
-        public static final int add=0x7f080019;
+        public static final int add=0x7f08001b;
         public static final int barcode=0x7f080013;
         public static final int barcodedetail=0x7f08000b;
         public static final int customvoucher=0x7f080001;
         public static final int digitalClock1=0x7f08000e;
-        public static final int dmkbenhvien=0x7f08001c;
-        public static final int dmknhahang=0x7f080016;
-        public static final int dmktaxi=0x7f080017;
+        public static final int dmkbenhvien=0x7f08001d;
+        public static final int dmknhahang=0x7f080018;
+        public static final int dmktaxi=0x7f080019;
         public static final int home=0x7f080002;
-        public static final int listvoucher=0x7f08001a;
-        public static final int pricebuy=0x7f08001b;
-        public static final int pricesell=0x7f08001d;
+        public static final int listvoucher=0x7f08001c;
+        public static final int pricebuy=0x7f080016;
+        public static final int pricesell=0x7f080017;
         public static final int productname=0x7f080010;
         public static final int productnamedetail=0x7f080006;
         public static final int quantity=0x7f080011;
         public static final int quantitydetail=0x7f080008;
-        public static final int refress=0x7f080018;
+        public static final int refress=0x7f08001a;
         public static final int save=0x7f08000f;
         public static final int status=0x7f080012;
         public static final int statusdetail=0x7f08000a;

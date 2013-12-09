@@ -4,6 +4,9 @@
     <string name="app_name">Voucher</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+<<<<<<< HEAD
     <string name="wsgetproduct">http://117.6.131.222:8090/POS/WSERP/get_all_products1.php</string>
+=======
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 
 </resources>

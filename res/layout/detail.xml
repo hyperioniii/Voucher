@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="fill_parent"
+=======
+    android:layout_height="match_parent"
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
     android:orientation="vertical" >
 
     <LinearLayout
@@ -14,13 +18,21 @@
         android:weightSum="7" >
 
         <ImageButton
+<<<<<<< HEAD
             android:id="@+id/home"
+=======
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:background="@drawable/layoutlist"
+<<<<<<< HEAD
             android:src="@drawable/home" />
+=======
+            android:src="@drawable/home" 
+            android:id="@+id/home"/>
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 
         <TextView
             android:layout_width="0dp"
@@ -32,7 +44,13 @@
             android:textSize="19sp"
             android:textStyle="bold" />
 
+<<<<<<< HEAD
         <ImageButton
+=======
+         
+
+        <ImageButton 
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
             android:id="@+id/sua"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -40,34 +58,55 @@
             android:layout_weight="1"
             android:background="@drawable/layoutlist"
             android:src="@drawable/config" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
         <TextView
             android:layout_width="2dp"
             android:layout_height="fill_parent"
             android:text=" " />
+<<<<<<< HEAD
 
         <ImageButton
             android:id="@+id/xoa"
+=======
+        <ImageButton
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:background="@drawable/layoutlist"
+<<<<<<< HEAD
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
             android:src="@drawable/close_delete" />
+=======
+            android:src="@drawable/close_delete" 
+            android:paddingTop="5dp"
+            android:id="@+id/xoa"
+            android:paddingBottom="5dp"/>
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
     </LinearLayout>
 
     <TableLayout
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="fill_parent" >
+=======
+        android:layout_height="wrap_content" >
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+<<<<<<< HEAD
             android:layout_weight="1"
+=======
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
             android:orientation="horizontal" >
 
             <TextView
@@ -78,6 +117,7 @@
                 android:textColor="#006600"
                 android:textStyle="bold" />
 
+<<<<<<< HEAD
             <TextView
                 android:id="@+id/productnamedetail"
                 android:layout_width="0dp"
@@ -110,12 +150,22 @@
                 android:layout_weight="3"
                 android:text=" 112314124"
                 android:textColor="#006600" />
+=======
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" 112314124"
+                android:textColor="#006600"
+                android:id="@+id/productnamedetail" />
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_marginLeft="10dp"
             android:layout_weight="1" >
 
@@ -134,14 +184,51 @@
                 android:layout_weight="3"
                 android:text=""
                 android:textColor="#006600" />
+=======
+            android:layout_marginLeft="0dp" >
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Quantity    : "
+                        android:textColor="#006600"
+                        android:textStyle="bold" 
+                        android:id="@+id/quantitydetail"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="15/3/2013 "
+                        android:textColor="#006600" />
+                </TableRow>
+
+             
+            </TableLayout>
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
         </TableRow>
 
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_marginLeft="10dp"
             android:layout_weight="1" >
+=======
+            android:layout_marginLeft="10dp" >
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 
             <TextView
                 android:layout_width="0dp"
@@ -152,19 +239,31 @@
                 android:textStyle="bold" />
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/statusdetail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:text=""
+=======
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" tồn kho "
+                android:id="@+id/statusdetail"
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
                 android:textColor="#006600" />
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_marginLeft="5dp"
             android:layout_weight="1" >
+=======
+            android:layout_marginLeft="5dp" >
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 
             <TextView
                 android:layout_width="fill_parent"
@@ -176,6 +275,7 @@
                 android:textStyle="bold" />
 
             <TextView
+<<<<<<< HEAD
                 android:id="@+id/barcodedetail"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -186,4 +286,44 @@
         </TableRow>
     </TableLayout>
 
+=======
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text=" 110023888233"
+                android:textColor="#006600" 
+                android:id="@+id/barcodedetail"/>
+        </TableRow>
+    </TableLayout>
+
+    <TabHost 
+android:id="@+id/tabhost" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+
+<TabWidget 
+android:id="@android:id/tabs" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"/>
+
+<FrameLayout 
+android:id="@android:id/tabcontent" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:paddingTop="62px">
+
+<include layout="@layout/tab1" android:id="@+id/tab1" />
+
+        <DigitalClock 
+android:id="@+id/digitalClock1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="DigitalClock" 
+android:layout_gravity="center"/>
+
+    </FrameLayout> 
+</TabHost>
+
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 </LinearLayout>

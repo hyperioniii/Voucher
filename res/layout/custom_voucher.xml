@@ -16,7 +16,11 @@
 	    android:text="Go vao day "
 	    android:id="@+id/customvoucher"
 	    android:paddingTop="20dp"
+<<<<<<< HEAD
 	    android:textColor="#1F88DF"
+=======
+	    android:textColor="#000000"
+>>>>>>> e58fe8ec26fb1aec883172426e84db0e7c674b93
 	    android:paddingLeft="10dp"
 	    />
 </LinearLayout>
